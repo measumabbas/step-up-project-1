@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <form>
+        <span  class="backred"> <strong ><h1>Forms in HTML With Labels</h1></strong></span>
+
+        <br><br> <label class="blue" for="name">Name</label>
+
+        <input type="text" id="name"><br><br>
+        <label class="blue , backred" for="dep">Department</label>
+        <input type="text" id="dep"><br><br>
+        <label class="blue" for="registration">Registration number</label>
+        <input type="text" id="registration"><br><br>
+        <label class="blue" for="email">Email</label>
+
+        <input type="email" id="email"><br><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age"><br><br>
+        <label class="blue" for="car">Car</label>
+        <select class="blue" name="myCar" id="car">
+            <option>Swift</option>
+            <option>Vitz</option>
+        </select><br><br>
+        <input type="submit" value="submit Now">
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Registration Number</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Car</th>
+            </tr>
+        </thead>
+
+        <tbody id="body">
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
